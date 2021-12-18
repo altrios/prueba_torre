@@ -1,0 +1,99 @@
+body {
+  position: inherit;
+  width: 100vw;
+  overflow-x: hidden;
+}
+.App {
+  position: inherit;
+  font-family: sans-serif;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  height: auto;
+  width: 100%;
+  padding: 35px 10px 5px 10px;
+  padding-top: 7vh;
+
+}
+.button-Skills{
+  position: absolute;
+
+  box-sizing: border-box;
+  border-radius: 20px;
+  position: absolute;
+  width: 150px;
+  height: 52px;
+
+  box-sizing: border-box;
+  border: 2px solid #117cc3 !important;
+ 
+
+}
+.Assistance{
+  text-align: center;
+  font-family: sans-serif;
+  display: inline-flex;
+  left: 20%;
+  right: 20%;
+  align-items: center;
+  height: auto;
+  width: 100%;
+  padding: 55px;
+}
+
+.nav{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 10hv;
+  background: rgb(255, 255, 255);
+  color: rgb(139, 139, 139);
+}
+
+.nav-link{
+  width: 40%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  list-style:none;
+}
+.button-login{
+      text-decoration: none;
+      text-decoration: underline;
+      color: rgb(139, 139, 139);
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+}
+.button-menu-lateral{
+  text-decoration: none;
+  color: rgb(139, 139, 139);
+  text-decoration:none;
+  text-decoration: none;
+  display: inline-block;
+}
+a:link, a:visited, a:active {
+  text-decoration:none;
+}
+.classRoom{
+  background-color: #23d9b7;
+  display: inline-flex;
+  padding: 5px!important;
+  
+}
+.classRoomButon{
+  color:'#23d9b7';
+}
+
+.logo-desk{
+  max-height: 64px;
+    margin-left: 40%;
+    margin-top: 10%;
+}
+header {
+  position: absolute;
+  z-index: 9;
+}
+.gallery-card {
+  height: 40vh !important;
+}
