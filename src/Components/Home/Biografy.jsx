@@ -172,7 +172,7 @@ function Biografy() {
 
         var config = {
             method: 'get',
-            url: 'http://bio.torre.co/api/bios/' + data.usuario,
+            url: 'https://bio.torre.co/api/bios/' + data.usuario,
             headers: {
                 'Cookie': 'trackingId=rB8mf2G9xJQHBgxsKUHaAg=='
             }
